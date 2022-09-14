@@ -10,12 +10,12 @@ void main() {
   print(map_name.length);
   print(map_name2);
 
+  //Another way of initializing a map
   var mapName = Map();
   mapName['Name'] = 'Ankur';
   mapName['YearOfExperience'] = 2;
   mapName['ProjectsDone'] = true;
 
   print(mapName);
-
 
 }
