@@ -10,4 +10,12 @@ void main() {
   print(map_name.length);
   print(map_name2);
 
+  var mapName = Map();
+  mapName['Name'] = 'Ankur';
+  mapName['YearOfExperience'] = 2;
+  mapName['ProjectsDone'] = true;
+
+  print(mapName);
+
+
 }
